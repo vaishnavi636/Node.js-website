@@ -1,0 +1,202 @@
+/* .signinpage{
+  padding-top: 5%;
+} */
+
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+
+
+.title {
+  background-color: #990099;
+  background-image:url("dakrpurple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 15%;
+  padding-right: 10%;
+  color: #fff;
+}
+
+.color {
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
+  
+
+
+}
+
+/*Navigation Bar*/
+.navbar-brand {
+  font-size: 3rem;
+  font-family: 'Grandstander', cursive;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Lobster', cursive
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 80%;
+  margin: 3rem;
+  border-radius: 4px;
+  transform: rotate(20deg);
+
+}
+
+.icon-dec {
+  color: pink;
+}
+
+.icon-dec:hover {
+  color: #660066;
+}
+
+/* Features  */
+.features {
+  padding: 5% 15%
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #b300b3;
+}
+
+.icon:hover {
+  color: #660066;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  background-color: #b300b3;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 30%;
+  border-radius: 100%;
+  margin: 10%;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.press {
+  background-color: #b300b3;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing {
+  padding: 5% 15%;
+}
+
+/* cta section*/
+.cta {
+  color: #fff;
+  background-color: #b300b3;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+  }
+}
+
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding-top: 5%;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
